@@ -1,5 +1,5 @@
 var path = require('path');
-var less = require('less');
+var less = require('uless');
 var through2 = require('through2');
 var gutil = require('gulp-util');
 var PluginError = gutil.PluginError;
